@@ -77,9 +77,9 @@ workflow SHIFTS_WORKFLOW {
     // WORKFLOW: Run SHIFTS analysis pipeline
     //
     SHIFTS(
-        CREATE_INPUT_CHANNEL_PTMCOMPASS.out.ch_re_files,
-        CREATE_INPUT_CHANNEL_PTMCOMPASS.out.ch_exp_table,
-        CREATE_INPUT_CHANNEL_PTMCOMPASS.out.ch_params_file
+        CREATE_INPUT_CHANNEL_SHIFTS.out.ch_re_files,
+        CREATE_INPUT_CHANNEL_SHIFTS.out.ch_exp_table,
+        CREATE_INPUT_CHANNEL_SHIFTS.out.ch_params_file
     )
 }
 
