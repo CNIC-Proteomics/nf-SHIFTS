@@ -115,7 +115,7 @@ workflow CREATE_INPUT_CHANNEL_SHIFTS {
     main:
 
     // stop from the missing parameters
-    def requiredParams = ['re_files','exp_table','database','decoy_prefix']
+    def requiredParams = ['re_files','exp_table']
     printErrorMissingParams(params, requiredParams)
 
     // create channels from input files
