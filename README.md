@@ -23,7 +23,7 @@ cd /home/jmrodriguezc/nf-SHIFTS
 
 nextflow \
     -log "/tmp/nextflow/log/nf-shifts.log" \
-    run main.nf   \
+    run main.nf  -profile singularity \
         -params-file "/home/jmrodriguezc/projects/nf-SHIFTS/tests/test1/inputs/inputs.yml" \
         --outdir  "/home/jmrodriguezc/projects/nf-SHIFTS/tests/test1" \
         --params_file "/home/jmrodriguezc/projects/nf-SHIFTS/tests/test1/inputs/params.ini" \
