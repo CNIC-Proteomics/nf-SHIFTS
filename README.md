@@ -13,8 +13,8 @@ nextflow \
     run main.nf   \
         -profile singularity \
         -params-file "/mnt/tierra/U_Proteomica/UNIDAD/DatosCrudos/jmrodriguezc/projects/nf-SHIFTS/tests/test1/inputs/inputs.yml" \
-        --outdir  "/mnt/tierra/U_Proteomica/UNIDAD/DatosCrudos/jmrodriguezc/projects/nf-SHIFTS/tests/test1" \
         --params_file "/mnt/tierra/U_Proteomica/UNIDAD/DatosCrudos/jmrodriguezc/projects/nf-SHIFTS/tests/test1/inputs/params.ini" \
+        --outdir  "/mnt/tierra/U_Proteomica/UNIDAD/DatosCrudos/jmrodriguezc/projects/nf-SHIFTS/tests/test1" \
         -resume
 ```
 
